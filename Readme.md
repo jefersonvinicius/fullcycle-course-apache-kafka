@@ -19,3 +19,6 @@ Topics are segmented channels of information where stored information from produ
 # Partitions
 Partitions are ways the a topic to spread yours message in differents machines. Ensuring more resilience.
 
+
+# Ensuring messages order
+When the messages order is important, can be used the keys to unify the messages in one partition. That way, avoiding messages that need processed in determinate order fall in different partition
