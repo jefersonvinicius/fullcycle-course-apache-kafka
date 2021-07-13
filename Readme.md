@@ -15,3 +15,7 @@ https://kafka.apache.org/
 Topics are segmented channels of information where stored information from producers and to make available for consumers read it.
 
 ![](./images/topics.png)
+
+# Partitions
+Partitions are ways the a topic to spread yours message in differents machines. Ensuring more resilience.
+
