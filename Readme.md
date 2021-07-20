@@ -25,3 +25,6 @@ When the messages order is important, can be used the keys to unify the messages
 
 # Replicator factor
 Indicates the amount of partitions will have in each broker. In case of a broker down, the messages will be safe in anothers replicas
+
+# Partition leadership
+The partitions have a leadership, and the consumers always will read from leader. When the leader partition down, the Apache automatically assign the leader replica as leader.
