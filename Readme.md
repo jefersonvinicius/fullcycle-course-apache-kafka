@@ -22,3 +22,6 @@ Partitions are ways the a topic to spread yours message in differents machines. 
 
 # Ensuring messages order
 When the messages order is important, can be used the keys to unify the messages in one partition. That way, avoiding messages that need processed in determinate order fall in different partition
+
+# Replicator factor
+Indicates the amount of partitions will have in each broker. In case of a broker down, the messages will be safe in anothers replicas
