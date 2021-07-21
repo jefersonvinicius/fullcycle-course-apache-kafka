@@ -28,3 +28,17 @@ Indicates the amount of partitions will have in each broker. In case of a broker
 
 # Partition leadership
 The partitions have a leadership, and the consumers always will read from leader. When the leader partition down, the Apache automatically assign the leader replica as leader.
+
+# Producer: ensure delivery message
+
+## Acknowledgments Types:
+**Ack 0 -> None**: producer send message and don't have response (Fire and Forget). 
+Offer low ensurement, but the processing is more quickly
+
+
+**Ack 1 -> Leader**: producer send message and wait for leader response.  
+Offer middle ensurement, but reduces processing speed
+
+**Ack -1 -> ALL**: producer send message and wait it be replicated on followers, and then, leader send response.  
+Offer high ensurement, but reduces significantly processing speed
+
