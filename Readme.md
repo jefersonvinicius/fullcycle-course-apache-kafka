@@ -35,7 +35,6 @@ The partitions have a leadership, and the consumers always will read from leader
 **Ack 0 -> None**: producer send message and don't have response (Fire and Forget). 
 Offer low ensurement, but the processing is more quickly
 
-
 **Ack 1 -> Leader**: producer send message and wait for leader response.  
 Offer middle ensurement, but reduces processing speed
 
