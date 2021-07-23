@@ -41,3 +41,6 @@ Offer middle ensurement, but reduces processing speed
 **Ack -1 -> ALL**: producer send message and wait it be replicated on followers, and then, leader send response.  
 Offer high ensurement, but reduces significantly processing speed
 
+# Producer Idempotent
+When the producer is idempotent, it ensure the message don't will be duplicated in case of some failure
+
