@@ -44,3 +44,5 @@ Offer high ensurement, but reduces significantly processing speed
 # Producer Idempotent
 When the producer is idempotent, it ensure the message don't will be duplicated in case of some failure
 
+# Consumers Groups
+Through the groups, the broker partitions will be arranged in order to that all consumers receive amount of messages balanced 
