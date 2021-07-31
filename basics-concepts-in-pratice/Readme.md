@@ -27,3 +27,8 @@ Options:
 ```
 kafka-console-producer --bootstrap-server=localhost:9092 --topic=<topic-name>
 ``` 
+
+## Describe consumer groups
+```
+kafka-consumer-groups --bootstrap-server=localhost:9092 --group=x --describe
+```
