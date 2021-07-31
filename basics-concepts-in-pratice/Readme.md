@@ -20,6 +20,7 @@ kafka-topics --bootstrap-server=localhost:9092 --topic=<topic-name> --describe
 kafka-console-consumer --bootstrap-server=localhost:9092 --topic=<topic-name>
 Options:
     --from-beginning: Start read the messages from beginning
+    --group=<groupname> : set a group to topic
 ``` 
 
 ## Start topic producer
